@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(imagens/praia.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 20% 0;
+    box-shadow: 1px 2px 20px #000, 2px 6px 50px #000;
+    padding: 50px 20px;
+    
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+.conteudo{
+    margin: 10px;
+    padding: 10px;
+    width: 700px;
+    height: 400px;
+    font-size: 17px;
+    border: none;
+    font-weight: bold;
+    
+}
+
+
+.input{   
+    padding: 10px;
+    margin: 10px;
+    border: none;  
+    color: white;
+    text-align: center;
+    background: transparent;
+    border-bottom: 1px solid white ;
+    
+}
+
+label{
+    margin: 10px;
+}
+
+::-webkit-input-placeholder{
+
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+  }
+
+.gara-sexo{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 10px 10px;
+    cursor: pointer;
+    
+}
+
+.garagem{
+    margin: 10px 0;
+}
+
+
+.sexo{
+    display: flex;
+    padding: 5px;
+    margin-right: 30px;
+}
+
+p {
+    padding-top: 4px;
+}
+
+.selecionar-sexo{
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    text-transform: uppercase;
+    
+   
+}
+
+.doenças-sangue,.doencas, .opçao-sanguineo{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+textarea{
+    background: transparent;
+    color: white ;
+    margin-right: 90px;
+}
+
+.tipo-sanguineo{ 
+    margin: 13px 10px;
+    display: flex;
+    padding: 5px 25px;
+    border-radius: 5px;
+    background: transparent;
+    
+}
+
+
+.cadastrar{
+    margin: 30px 0;
+    margin-left: 400px;
+    width: 20%;
+    background: transparent;
+    padding: 20px;  
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: ease-in-out .25s;
+}
+
+.cadastrar:hover{
+    background: rgba(255, 0, 0, 0.459);
+}

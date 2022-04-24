@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="titulo">
+        <h2>Cadastrar Inquilino</h2>
+
+        <form>
+            <div class="conteudo">
+                <div class="nome-sobrenome" >
+                    <label for="nome">Nome</label> 
+                    <input type="text"  class="input" name="nome" required placeholder="Nome">
+
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text"   class="input"  name="sobrenome" required placeholder="Sobrenome" >
+                </div>  
+
+                <div >
+                    <label for="cpf">CPF</label>
+                    <input type="number" class="input"  name="CPF" required placeholder="Digite seu CPF">
+
+                    <label for="data">Data Nasc.</label>
+                    <input type="date" class="input"  name="data" required>
+                </div>
+
+                <div class="tel-ap">
+                    <label for="ap" >Apartam.</label>   
+                    <input type="number" id="ap" class="input app" required >
+                
+                    <label for="tel" class="tel">Telefone</label>   
+                    <input type="number" id="tel"  class="input"  required placeholder="(xx) xxxxx-xxxx">
+                    
+                </div>
+
+                <div class="gara-sexo">
+                    <div class="garagem">
+                        <label>possui vaga de garagem?</label>
+                        <label for="sim">Sim</label> 
+                        <input type="radio"  name="sim" value="Sim">
+                        
+                        <label for="Não">Não</label>
+                        <input type="radio"   name="sim" value="Nao">
+
+                    </div>
+
+                    <div class="sexo">
+                        <p>Sexo</p>
+                        <select class="selecionar-sexo">
+                            <option></option>
+                            <option>Masculino</option>
+                            <option>Femenino</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="doenças-sangue">
+                    
+                    <div class="doencas">
+                        <p>Doenças crônicas</p>
+                    <textarea name="doenças" id="" cols="25" rows="4"></textarea>
+                    </div>
+                    
+                    <div class="opçao-sanguineo">
+                        <p>Tipo sanguinio</p>
+                        <select class="tipo-sanguineo">
+                            <option></option>
+                            <option>A+</option>
+                            <option>A-</option>
+                            <option>O+</option>
+                            <option>O-</option>
+                            <option>B+</option>
+                            <option>B-</option>
+                            <option>AB+</option>
+                            <option>AB-</option>
+                        </select>    
+                    </div>
+                </div>
+
+                 <input type="submit" value="Cadastrar" class="cadastrar" name="cadastrar">
+                 
+            </div>  
+            
+        </form>
+
+    
+    </div>
+</body>
+</html>
